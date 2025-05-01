@@ -1,0 +1,73 @@
+/* Section One */
+.section-one .inner-wrap {
+  background: #fff;
+  min-height: 708px;
+  padding: 20px;
+}
+
+.section-one .inner-title {
+  font-size: 20px;
+  font-weight: 700;
+  border-left: 3px solid var(--color-one);
+  padding-left: 15px;
+  margin-bottom: 40px;
+}
+
+.section-one .inner-date i {
+  color: var(--color-one);
+}
+
+.section-one .inner-content  p {
+  margin-bottom: 0;
+}
+
+.section-one form {
+  margin-top: 120px;
+}
+
+.section-one .form-group {
+  position: relative;
+}
+
+.section-one .form-group {
+  margin-bottom: 0;
+}
+
+.section-one .form-group .form-control {
+  border-radius: 1.25rem;
+  border: 1px solid #ddd;
+}
+
+.section-one .form-group i {
+  font-size: 17px;
+  color: var(--color-text);
+  position: absolute;
+  top: calc(50% - 8.5px);
+  right: 10px;
+}
+.section-one .inner-list .inner-box {
+  display: flex;
+  height: 50px;
+  margin-bottom: 40px;
+}
+
+.section-one .inner-list .inner-box .inner-image {
+  width: 100px;
+  overflow: hidden;
+}
+
+.section-one .inner-list .inner-box .inner-image img {
+  width: 100%;
+}
+
+.section-one .inner-list .inner-box .inner-content {
+  flex: 1;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.section-one .inner-list .inner-box .inner-content span {
+  font-weight: 550;
+}
+/* End Section One */ 

@@ -1,0 +1,59 @@
+/* Header */
+.header .inner-wrap .inner-list .inner-login {
+  display: flex;
+  align-items: center;
+}
+
+.header .inner-wrap .inner-list .inner-login .inner-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 5px;
+}
+
+.header .inner-wrap .inner-list .inner-login .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header .inner-wrap .inner-list .inner-login .btn:not(:disabled):not(.disabled) {
+  padding: 0;
+  font-size: 13px;
+  background-color: #fff;
+  color: var(--color-text);
+  border: none;
+}
+
+.header .inner-wrap .inner-list .inner-login .dropdown-menu.show {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  margin-top: 25px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.header .inner-wrap .inner-list .inner-login .dropdown-menu.show::after {
+  position: absolute;
+    top: -7px;
+    left: auto;
+    right: 10px;
+    display: inline-block !important;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    border-left: 7px solid transparent;
+    content: '';
+}
+
+.header .inner-wrap .inner-list .inner-login .btn:not(:disabled):not(.disabled):focus {
+  box-shadow: none;
+}
+
+.header .inner-wrap .inner-list .inner-login .dropdown-item {
+  padding: 10px 15px;
+  font-size: 13px;
+  border-bottom: 1px solid #ddd;
+}
+/* End Header */
