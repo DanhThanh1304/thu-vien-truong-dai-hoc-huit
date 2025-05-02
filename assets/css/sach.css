@@ -1,0 +1,71 @@
+/* Section One */ 
+.section-one .inner-wrap {
+  background: #fff;
+  padding: 20px;
+  min-height: 708px;
+}
+
+.section-one .inner-wrap .col-2 {
+  display: flex;
+  justify-content: end;
+}
+
+.section-one .inner-wrap .inner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+
+.section-one .inner-wrap .inner-content .inner-title {
+  font-weight: 550;
+}
+
+.section-one .inner-wrap .inner-content .inner-menu {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+}
+
+.section-one .inner-wrap .inner-content .inner-menu div {
+  font-size: 14px ;
+}
+
+.section-one .inner-wrap .inner-image {
+  border: 1px solid #ddd;
+  width: 100px;
+  height: 140px;
+  position: relative;
+} 
+
+.section-one .inner-wrap .inner-image img {
+  width: 70px;
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 36.5px);
+}
+
+.section-one .inner-wrap .inner-book {
+  font-size: 14px;
+}
+
+.section-one .inner-wrap .inner-name {
+  font-size: 20px;
+  color: #2d62b7;
+}
+
+.section-one .inner-wrap .inner-button {
+  display: flex;
+  justify-content: end;
+}
+
+.section-one .inner-wrap .inner-navs {
+  margin-top: 80px;
+}
+/* End Section One */ 
