@@ -1,9 +1,4 @@
 /* Header */
-.header {
-  position: sticky;
-  top: 0;
-}
-
 .header .inner-wrap .inner-list .inner-login {
   display: flex;
   align-items: center;
